@@ -1,0 +1,1 @@
+# Prattski jQuery Magento Extension
