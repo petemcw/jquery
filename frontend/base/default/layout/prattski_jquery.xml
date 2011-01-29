@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Prattski
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the EULA that can
+ * be found on the web at the following URL:
+ * http://store.prattski.com/LICENSE.txt
+ *
+ * @category    Prattski
+ * @package     Prattski_Jquery
+ * @copyright   Copyright (c) 2010-2011 Prattski (http://prattski.com/)
+ * @license     http://store.prattski.com/LICENSE.txt
+ */
+-->
+<layout>
+
+	<!--
+	Default layout, loads most of the pages
+	-->
+    <default>
+        <reference name="head">
+            <action method="addItem"><type>skin_js</type><name>js/jquery-1.4.4.min.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/jquery-noconflict.js</name></action>
+        </reference>
+    </default>
+
+</layout>

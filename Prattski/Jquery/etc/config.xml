@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Prattski
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the EULA that can
+ * be found on the web at the following URL:
+ * http://store.prattski.com/LICENSE.txt
+ *
+ * @category    Prattski
+ * @package     Prattski_Jquery
+ * @copyright   Copyright (c) 2010-2011 Prattski (http://prattski.com/)
+ * @license     http://store.prattski.com/LICENSE.txt
+ */
+-->
+<config>
+    <modules>
+        <Prattski_Jquery>
+             <version>0.1.0</version>
+        </Prattski_Jquery>
+    </modules>
+    
+    <frontend>
+        <layout>
+            <updates>
+                <prattski_jquery module="prattski_jquery">
+                    <file>prattski_jquery.xml</file>
+                </prattski_jquery>
+            </updates>
+        </layout>
+    </frontend>
+</config>
